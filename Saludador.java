@@ -12,7 +12,7 @@ public class Saludador {
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("\n");
         
-        System.out.println("Escribe un nombre");
+        System.out.println("Escribe tu nombre:");
         String nombre = sc.next();
         
         System.out.println("¡Hola "+nombre+"!");
